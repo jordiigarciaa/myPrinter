@@ -1,0 +1,50 @@
+{
+  "_from": "@ionic-native/printer@^4.4.2",
+  "_id": "@ionic-native/printer@4.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-iBaIC2SkLWp+eNWxOYadEtKtI6wvezLOdLxWCB2zIeKZzN88a9nGp+Qgpz5hfXH0GNMfpid7DIdO54h8eN3v6Q==",
+  "_location": "/@ionic-native/printer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@ionic-native/printer@^4.4.2",
+    "name": "@ionic-native/printer",
+    "escapedName": "@ionic-native%2fprinter",
+    "scope": "@ionic-native",
+    "rawSpec": "^4.4.2",
+    "saveSpec": null,
+    "fetchSpec": "^4.4.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/printer/-/printer-4.5.2.tgz",
+  "_shasum": "fe91c123a492448e632862aa1a3d64f41dc5e7b7",
+  "_spec": "@ionic-native/printer@^4.4.2",
+  "_where": "/Users/android/Documents/workspace/Barsapp",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/printer",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.2.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "4.5.2"
+}
