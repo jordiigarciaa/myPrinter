@@ -1,4 +1,5 @@
-import { IonicNativePlugin } from '@ionic-native/core';
+import { Injectable } from '@angular/core';
+import { Plugin, IonicNativePlugin, Cordova } from '@ionic-native/core';
 export interface PrintOptions {
     /**
      * The name of the print job and the document
@@ -59,9 +60,17 @@ export interface PrintOptions {
  * this.printer.print(content, options).then(onSuccess, onError);
  * ```
  * @interfaces
- * PrintOptions
+ // * PrintOptions
  */
-export declare class Printer extends IonicNativePlugin {
+ @Plugin({
+    pluginName: 'MyPrinter', // should match the name of the wrapper class
+    plugin: 'myPrinter', // NPM package name
+    pluginRef: 'MyPrinter', // name of the object exposed by the plugin
+    repo: 'https://github.com/jordiigarciaa/myPrinter', // plugin repository URL
+    platforms: ['Android', 'iOS'] // supported platforms
+})
+@Injectable()
+export declare class MyPrinter extends IonicNativePlugin {
     /**
      * Checks whether the device is capable of printing (uses `check()` internally)
      * @returns {Promise<boolean>}
